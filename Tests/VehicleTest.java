@@ -4,7 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class VehicleTest {
 
-    Car car = new Car("KIA", "Optima", 2022);
+    Car car = new Car("Hyundai", "Sonata", 2006);
     Motorcycle moto = new Motorcycle("Honda", "Gold Wing", 2020);
 
     // Проверка того, что экземпляр объекта Car также является экземпляром транспортного средства; (instanceof)
